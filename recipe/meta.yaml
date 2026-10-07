@@ -1,6 +1,6 @@
 {% set name = "atlite" %}
-{% set version = "0.6.1" %}
-{% set sha256 = "29ed68f68532e1fd233258719eeafe1af24059548115d10765945ae6c9496156" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "f19ec40c5b602ff5ae5534137a4e85a845b3642aaf1ad01ab4104e7acb037000" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
